@@ -151,10 +151,10 @@
   resolved "https://registry.yarnpkg.com/@eigenspace/codestyle/-/codestyle-1.1.53.tgz#442577343a1b24bdb9fe23f7291d65ac076e4b7e"
   integrity sha512-q3eoX8HwkKxwyYEhNud3PvpFliDR7esIG5CyVZ8G0MXF3GX7kkw3/b/LXLFAwF9k6GPdRd4M0FUfU2I1rz5DLg==
 
-"@eigenspace/helper-scripts@1.0.75":
-  version "1.0.75"
-  resolved "https://registry.yarnpkg.com/@eigenspace/helper-scripts/-/helper-scripts-1.0.75.tgz#729164343fe0e35146b82f51a240dee30706d96a"
-  integrity sha512-KzbCYDiOsPoDbxKGmC8+O4vAdUS16hvQKJTQ1m7RmzE0o94PiAH7LcrKi0ex7TuojchU7HMDamH3C8RsKhWdTg==
+"@eigenspace/helper-scripts@1.0.76":
+  version "1.0.76"
+  resolved "https://registry.yarnpkg.com/@eigenspace/helper-scripts/-/helper-scripts-1.0.76.tgz#985daed5a0ab1c2126c89f44dd64dad2e586fcd4"
+  integrity sha512-vgjRy7+qVZIdrQLxDfUvIXx2FvFp5+O1L/6xQ4iTY+/+eu8TRkui0zNQsuRn6mvuXTQUCq0msG7cMcUxWSOEcg==
   dependencies:
     minimist "1.2.0"
 
