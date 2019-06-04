@@ -1,0 +1,10 @@
+{
+  "extends": "@eigenspace/codestyle/base.tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "sourceMap": false
+  },
+  "include": [
+    "src"
+  ]
+}

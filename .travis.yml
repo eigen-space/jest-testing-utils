@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+  - "11.10"
+git:
+  depth: false
+cache:
+  directories:
+    - node_modules
+if: branch = master
+script:
+  - git checkout $TRAVIS_BRANCH
+  - git remote set-url origin https://sergeevNick:$GITHUB_API_KEY@github.com/eigen-space/jest-testing-utils.git
+  - chmod +x ./src/scripts/ci/detect-autocommit.sh
+  - if ./src/scripts/ci/detect-autocommit.sh ; then
+      yarn lint && yarn build && npm run deploy:publish;
+    fi
+notifications:
+  slack:
+    rooms:
+      - eigenspaceworkspace:kmQErenC9R4KA4kWyb1j8UaS#ci
+    on_success: change
+    on_failure: always
