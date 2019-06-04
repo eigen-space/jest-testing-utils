@@ -2,6 +2,13 @@
     "name": "@eigenspace/jest-testing-utils",
     "version": "0.0.1",
     "private": false,
+    "author": "Nikita Agupov <nktrsk@gmail.com>",
+    "contributors": [
+        "Anton Kalashnikov <tohasan@yandex.ru>",
+        "Daniil Sitdikov <hello.boriskas@gmail.com>",
+        "Nikita Sergeev <sergeev.nickitos@yandex.ru>",
+        "Nikita Agupov <nktrsk@gmail.com>"
+    ],
     "scripts": {
         "build": "yarn compile",
         "lint": "tslint --project tsconfig.json && yarn lint:markdown",
