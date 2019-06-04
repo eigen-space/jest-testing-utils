@@ -9,6 +9,7 @@ cache:
 if: branch = master
 script:
   - git checkout $TRAVIS_BRANCH
+  - yarn
   - git remote set-url origin https://derlagg:$GITHUB_API_KEY@github.com/eigen-space/jest-testing-utils.git
   - chmod +x ./node_modules/@eigenspace/helper-scripts/scripts/ci/detect-autocommit.sh
   - if ./node_modules/@eigenspace/helper-scripts/scripts/ci/detect-autocommit.sh ; then
