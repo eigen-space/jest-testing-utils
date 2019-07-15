@@ -9,3 +9,9 @@
 * `lint-staged` - used for configure linters against staged git files.
 * `prettier` - style components formatter.
 * `jest` - access to global variables to modify.
+
+# CI
+
+**Important!**
+
+Travis creates the .npmrc file during ci startup. This file contains the access token to the npm repository.
