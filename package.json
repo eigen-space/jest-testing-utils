@@ -39,7 +39,7 @@
         ]
     },
     "devDependencies": {
-        "@eigenspace/codestyle": "latest",
+        "@eigenspace/codestyle": "1.1.56",
         "@eigenspace/helper-scripts": "1.0.77",
         "@types/jest": "22.2.2",
         "@types/node": "11.9.5",
