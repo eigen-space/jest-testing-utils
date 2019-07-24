@@ -9,8 +9,7 @@ module.exports = {
     testMatch: [
         '<rootDir>/src/**/*.spec.(ts|tsx)'
     ],
-    // This configuration is used to defeat the problem:
-    //  jest-haste-map: @providesModule naming collision:
+    // This configuration is used to defeat the problem: jest-haste-map: @providesModule naming collision
     //   Duplicate module name: core-ui-kit
     //   Paths: C:\dev\projects\ams\core-ui-kit\dist\package.json collides with
     //      C:\dev\projects\ams\core-ui-kit\package.json
