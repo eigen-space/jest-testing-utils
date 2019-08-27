@@ -1,6 +1,6 @@
 {
     "name": "@eigenspace/jest-testing-utils",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "private": false,
     "author": "Nikita Agupov <nktrsk@gmail.com>",
     "contributors": [
